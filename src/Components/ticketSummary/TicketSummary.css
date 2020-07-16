@@ -1,0 +1,34 @@
+.tic-summary{
+    margin:10px;
+    margin-left:20px;
+    border:1px solid blue;
+    width:95%;
+    padding:15px;
+}
+.summary-top{
+    border-bottom: 2px solid rgb(9, 243, 243);
+    font-size:20px;
+}
+.summary-content{
+    margin:15px;
+}
+/* .container-box{
+    border: 3px solid rgb(19, 0, 0);
+    background-color: rgb(85, 169, 184);
+    margin:1%;
+    padding:1%;
+} */
+.tp{
+    margin-top: 1%;
+    padding: 1%;
+    border: 1px solid rgb(2, 1, 19);
+    border-radius:5px;
+    background-color: rgb(18, 106, 238);
+}
+table tr td{
+    border: 1px solid rgb(8, 8, 8);
+}
+table th{
+    font-weight: bold;
+    border: 1px solid rgb(8, 8, 8);
+}

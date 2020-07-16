@@ -1,0 +1,46 @@
+.search-sec{
+    background: #1A4668;
+    padding: 2rem;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid rgb(228, 37, 37);
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    /* height: calc(3rem + 2px) !important; */
+    border-radius: 50px;
+}
+option:first {
+    color: #999;
+}
+.planning{
+    justify-content: space-evenly;
+    align-items:center;
+    flex-direction: row;
+    margin:10px;
+    height:50%;
+    flex-wrap:wrap;
+}
+.form-control{    
+    border-radius: 50px;
+}
+
+input[type="date"]::before{
+    color: #ffffff;
+    content: attr(placeholder) "";
+    }
+    input[type="date"]:focus::before {
+    content: "" !important;
+    }

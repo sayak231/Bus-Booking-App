@@ -1,0 +1,71 @@
+.seats{
+    list-style-type: none;
+    display:flex;
+    flex-direction: column;
+    border:2px solid blue;
+    width:500px;
+    height:150px;
+    flex-wrap:wrap;
+    padding:5px;
+    border-radius: 3px;
+}
+.seats li{
+    display:flex;
+    list-style: none;
+    margin:5px;
+    border:1px solid black;
+    width:35px;
+    height:35px;
+    align-items: center;
+    justify-content:center;
+    background-color:white;
+    color:black;
+    border-radius:2px;
+}
+.seats li.bookedSeat{
+    background-color:red;
+}
+.seats li.selectSeat{
+    background-color:rgb(94, 255, 0);
+}
+.fare-details{
+    position: relative;
+    left:12%;
+}
+.landing1{
+    display:flex;
+    color:whitesmoke;
+}
+.seat-view{
+    margin:5px;
+    width:50%;
+}
+.summary{
+    margin:5px;
+    width:50%;
+}
+.summary h3{
+    border-bottom:2px solid greenyellow;
+}
+.bLeft
+{
+    width: 212px;
+    color:black;
+    font-size:18px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+
+.bRight
+{
+    width: 212px;
+    color:black; 
+    font-size: 18px;
+    font-weight: bolder; 
+    padding:5px;
+}
+.tp2{
+    margin: 3%;
+    background-color: rgb(56, 106, 201);
+}

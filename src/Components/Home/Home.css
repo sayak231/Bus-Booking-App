@@ -1,0 +1,27 @@
+.rowC{
+    display:flex; 
+    flex-direction:row;
+}
+
+.login-container{
+    margin-top: 2px;
+    margin-bottom: 0px; 
+}
+.login-form1{
+    padding: 2%;
+    box-shadow: 1000px 1000px 1000px 1000px rgba(0, 0, 0, 0.2), 1000px 1000px 1000px 1000px rgba(0, 0, 0, 0.19);
+    /* background-color: #73AD21; */
+    /* border-radius: 25px; */
+    /* border: 2px solid #73AD21; */
+}
+
+.h{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+.login-form2{
+    padding: 1px;
+    box-shadow: 1000px 1000px 1000px 1000px rgba(0, 0, 0, 0.2), 1000px 1000px 1000px 1000px rgba(0, 0, 0, 0.19);
+    /* background-color: rgb(231, 112, 57); */
+    /* border-radius: 25px; */
+    /* border: 2px solid rgb(231, 112, 57);     */
+}

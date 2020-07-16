@@ -1,0 +1,18 @@
+.container-box{
+    margin: auto;
+    padding: 5px;
+    position:relative;
+    top:10px;
+    width:90%;
+    border: 0.1px solid rgb(233, 247, 114);
+    border-radius:5px;
+}
+.container-box ul{
+    margin:10px;
+}
+.nav-link{
+    background-color: green;
+}
+.nav-item{
+    padding:2px;
+}
